@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{1F074917-7FDE-4018-9D9E-AE4B18EA8CE7}|Default">
+  <MonoDevelop.Ide.ItemProperties.TeacherLeague FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TeacherLeague.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TeacherLeague/MainPage.xaml">
+    <Files>
+      <File FileName="TeacherLeague/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TeacherLeague/MainPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TeacherLeague" expanded="True">
+            <Node name="TeacherLeague" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TeacherLeague.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
