@@ -82,4 +82,5 @@ def putinfo(school,bio,subject,name,grade,email):
     table.insert(records)
     return 'success'
 
-instance.run()
+if __name__ == '__main__':
+	instance.run()
