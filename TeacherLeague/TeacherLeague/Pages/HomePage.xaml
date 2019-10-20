@@ -7,39 +7,52 @@
                  VerticalOptions="CenterAndExpand"
                  BackgroundColor="#8AAF91"
                  Padding="0, 40, 0, 0">
-        <StackLayout Spacing="0">
-            <ListView SeparatorVisibility="None">
+        <StackLayout >
+            <ListView SeparatorVisibility="None" ItemsSource="{Binding RecentVideos}"
+                      HasUnevenRows="True"
+                      BackgroundColor="#8AAF91">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Orientation="Horizontal">
-                                <Image Source="https://via.placeholder.com/150/150"/>
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Name of the video"/>
-                                    <Label Text="Description"/>
+                            <StackLayout Orientation="Horizontal" Margin="5">
+                                <Image Source="{Binding Url}"/>
+                                <StackLayout Orientation="Vertical"
+                                             HorizontalOptions="CenterAndExpand"
+                                             VerticalOptions="Center">
+                                    <Label Text="{Binding User}" FontSize="20"/>
+                                    <StackLayout Orientation="Horizontal"
+                                                 VerticalOptions="Center">
+                                        <Label Text="{Binding Rating}" VerticalTextAlignment="Center"/>
+                                        <Image Source="Apple_icon"/>
+                                    </StackLayout>
                                 </StackLayout>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <ListView SeparatorVisibility="None">
+            <ListView SeparatorVisibility="None" ItemsSource="{Binding RecentLessonPlans}"
+                      HasUnevenRows="True"
+                      BackgroundColor="#8AAF91">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Orientation="Horizontal">
-                                <Image Source="https://via.placeholder.com/150/150"/>
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="Name of the video"/>
-                                    <Label Text="Description"/>
+                            <StackLayout Orientation="Horizontal"
+                                         Margin="5">
+                                <Image Source="{Binding Url}"/>
+                                <StackLayout Orientation="Vertical"
+                                             HorizontalOptions="CenterAndExpand"
+                                             VerticalOptions="Center">
+                                    <Label Text="{Binding Title}" VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="20"/>
+                                    <Label Text="{Binding User}"/>
+                                    <Label Text="{Binding Content}" VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Subject}" VerticalTextAlignment="Center"/>
                                 </StackLayout>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="Save User" Command="{Binding SaveUserCommand}"/>
-            <Button Text="Get User" Command="{Binding GetUserCommand}"/>
         </StackLayout>
     </StackLayout>
 </ContentPage>

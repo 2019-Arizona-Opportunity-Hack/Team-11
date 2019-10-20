@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Threading.Tasks;
+using System.Windows.Input;
 using FreshMvvm;
 using TeacherLeague.Models;
 using TeacherLeague.Services;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace TeacherLeague.PageModels
 {
@@ -14,6 +18,14 @@ namespace TeacherLeague.PageModels
         public BaseAccountDetailPageModel(IUserService userService)
         {
             _userService = userService;
+            _user = new User();
+           Task.Run(FetchUser);
+        }
+
+        async Task FetchUser()
+        {
+            var email = Application.Current.Properties["Email"].ToString();
+            _user = await _userService.GetUserByEmailAsync(email);
         }
 
         public string Name
@@ -32,6 +44,7 @@ namespace TeacherLeague.PageModels
             set
             {
                 _user.School = value;
+                RaisePropertyChanged("School");
             }
         }
 

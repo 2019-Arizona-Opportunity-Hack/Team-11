@@ -5,9 +5,11 @@ using FreshMvvm;
 using TeacherLeague.Models;
 using TeacherLeague.Services;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace TeacherLeague.PageModels
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public class AccountDetailsPageModel : BaseAccountDetailPageModel
     {
 
@@ -16,15 +18,7 @@ namespace TeacherLeague.PageModels
 
         public AccountDetailsPageModel(IUserService userService) : base(userService)
         {
-
-            Task.Run(FetchUserData);
             EditAccountInfoCommand = new Command(async () => await EditAccountInfo());
-        }
-
-        protected override void ViewIsAppearing(object sender, EventArgs e)
-        {
-            
-            base.ViewIsAppearing(sender, e);
         }
 
         // Pass user throughout the app

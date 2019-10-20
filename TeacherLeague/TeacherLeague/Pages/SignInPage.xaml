@@ -12,7 +12,7 @@
                      AbsoluteLayout.LayoutFlags="PositionProportional"
                      VerticalOptions="Center"
                      Spacing="20">
-            <Entry Placeholder="Email.." Text="{Binding Email}" BackgroundColor="#386739" PlaceholderColor="White"/>
+            <Entry Placeholder="Email.." Text="{Binding Email}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
             <Entry Placeholder="Password.." Text="{Binding Password}" IsPassword="True" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
         </StackLayout>
         <StackLayout AbsoluteLayout.LayoutBounds=".5, .6, 200, 100"

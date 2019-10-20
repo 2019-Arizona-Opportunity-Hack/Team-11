@@ -12,12 +12,12 @@
                      AbsoluteLayout.LayoutFlags="PositionProportional"
                      VerticalOptions="Center"
                      Spacing="20">
-            <Entry Placeholder="Name.." Text="{Binding Name}" BackgroundColor="#386739" PlaceholderColor="White"/>
-            <Entry Placeholder="Email.." Text="{Binding Email}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
-            <Entry Placeholder="Grade You Teach.." Text="{Binding Password}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
-            <Entry Placeholder="Subjects You Teach.." Text="{Binding Subjects}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
-            <Entry Placeholder="School You Teach At.." Text="{Binding School}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
-            <Editor Placeholder="Tell Us about You!" Text="{Binding Bio}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"
+            <Entry Placeholder="Name.." Text="{Binding Name, Mode=TwoWay}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
+            <Entry Placeholder="Email.." Text="{Binding Email, Mode=TwoWay}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
+            <Entry Placeholder="Grade You Teach.." Text="{Binding Grade, Mode=TwoWay}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
+            <Entry Placeholder="Subjects You Teach.." Text="{Binding Subjects, Mode=TwoWay}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
+            <Entry Placeholder="School You Teach At.." Text="{Binding School, Mode=TwoWay}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
+            <Editor Placeholder="Tell Us about You!" Text="{Binding Bio, Mode=TwoWay}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"
                     HeightRequest="80"/>
         </StackLayout>
         <StackLayout AbsoluteLayout.LayoutBounds=".5, .8, 200, 60"

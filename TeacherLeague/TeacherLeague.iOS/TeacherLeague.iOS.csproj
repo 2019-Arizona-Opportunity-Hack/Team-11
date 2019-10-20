@@ -159,6 +159,16 @@
     <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50-4.png" />
     <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50-5.png" />
     <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50-6.png" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\icons8-apple-50.png" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\icons8-apple-50-1.png" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\icons8-apple-50-2.png" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\icons8-apple-50-3.png" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\icons8-apple-50-4.png" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\icons8-apple-50-5.png" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\icons8-apple-50-6.png" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\icons8-apple-50-7.png" />
+    <ImageAsset Include="Assets.xcassets\Apple_icon.imageset\icons8-apple-50-8.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -195,5 +205,6 @@
     <Folder Include="Assets.xcassets\Home_Icon.imageset\" />
     <Folder Include="Assets.xcassets\Account_Icon.imageset\" />
     <Folder Include="Assets.xcassets\Competition_Icon.imageset\" />
+    <Folder Include="Assets.xcassets\Apple_icon.imageset\" />
   </ItemGroup>
 </Project>

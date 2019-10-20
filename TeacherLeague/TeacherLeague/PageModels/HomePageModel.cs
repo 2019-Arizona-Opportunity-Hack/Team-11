@@ -13,24 +13,22 @@ namespace TeacherLeague.PageModels
 {
     public class HomePageModel : FreshBasePageModel
     {
-        IUserService userService;
+        public ObservableCollection<Video> RecentVideos { get; set; }
+        public ObservableCollection<LessonPlan> RecentLessonPlans { get; set; }
 
-        public ObservableCollection<Video> recentVideos;
 
-
-        public HomePageModel(IUserService service)
+        public HomePageModel()
         {
-            userService = service;
-            
+            RecentVideos = new ObservableCollection<Video>();
+            RecentVideos.Add(new Video { User = "Joe", Rating = 10, Url = "https://picsum.photos/300/300" });
+            RecentVideos.Add(new Video { User = "Joe", Rating = 10, Url = "https://picsum.photos/300/300" });
+            RecentVideos.Add(new Video { User = "Joe", Rating = 10, Url = "https://picsum.photos/300/300" });
+
+            RecentLessonPlans = new ObservableCollection<LessonPlan>();
+            RecentLessonPlans.Add(new LessonPlan { User = "Jared", Content = "How to Add 1 + 1", Subject = "Math", Title = "Add 1+1", Url = "http://lorempixel.com/300/300/sports/Dummy-Text" });
+            RecentLessonPlans.Add(new LessonPlan { User = "Jared", Content = "How to Add 1 + 1", Subject = "Math", Title = "Add 1+1", Url = "http://lorempixel.com/300/300/sports/Dummy-Text" });
+            RecentLessonPlans.Add(new LessonPlan { User = "Jared", Content = "How to Add 1 + 1", Subject = "Math", Title = "Add 1+1", Url = "http://lorempixel.com/300/300/sports/Dummy-Text" });
         }
 
-        public override void Init(object initData)
-        {
-            base.Init(initData);
-            recentVideos = new ObservableCollection<Video>();
-            recentVideos.Add(new Video { User = "Joe", Rating = 10 });
-            recentVideos.Add(new Video { User = "Joe", Rating = 10 });
-            recentVideos.Add(new Video { User = "Joe", Rating = 10 });
-        }
     }
 }

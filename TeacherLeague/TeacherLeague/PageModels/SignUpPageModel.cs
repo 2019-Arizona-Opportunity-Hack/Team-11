@@ -94,6 +94,7 @@ namespace TeacherLeague.PageModels
         {
             var newUser = new User { Bio = _bio,
                 Email = _email.ToLower(), Grade = _grade, Name = _name, School = _school, Subject = _subjects};
+            Application.Current.Properties["Email"] = Email.ToLower();
             await _userService.InsertUserAsync(newUser);
             await _accountService.InsertUserAsync(newUser);
 
@@ -104,7 +105,7 @@ namespace TeacherLeague.PageModels
             tabbedNav.UnselectedTabColor = Color.White;
             tabbedNav.BarTextColor = Color.White;
             tabbedNav.AddTab<HomePageModel>("Home", "Home_Icon");
-            tabbedNav.AddTab<CompetitionsPageModel>("Competitions", null);
+            tabbedNav.AddTab<CompetitionsPageModel>("Competitions", "Home_Icon");
             tabbedNav.AddTab<AboutPageModel>("About", "About_Icon");
             tabbedNav.AddTab<AccountDetailsPageModel>("Account", "Account_Icon");
             await CoreMethods.PushNewNavigationServiceModal(tabbedNav);

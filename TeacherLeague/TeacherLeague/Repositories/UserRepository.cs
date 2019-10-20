@@ -40,7 +40,7 @@ namespace TeacherLeague.Repositories
 
         public Task<User> GetUserByEmailAsync(string email)
         {
-            return _connection.Table<User>().Where(u => u.Email.Equals(email)).FirstOrDefaultAsync();
+            return _connection.Table<User>().Where(u => u.Email.Equals(email)).FirstAsync();
         }
 
         public Task InsertUserAsync(User user)
