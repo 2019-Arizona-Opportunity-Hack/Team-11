@@ -117,25 +117,6 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./Account_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Account_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./Account_Icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Account_Icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./Account_Icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Account_Icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./Account_Icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Account_Icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "Account_Icon" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
 				<string>./Home_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./Home_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./Home_Icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -196,6 +177,25 @@
 			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "MDTP_Logo" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Account_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "Account_Icon" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>

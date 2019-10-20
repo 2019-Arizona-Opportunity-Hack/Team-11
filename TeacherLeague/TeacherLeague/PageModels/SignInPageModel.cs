@@ -3,16 +3,23 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using FreshMvvm;
+using TeacherLeague.Services;
 using Xamarin.Forms;
 
 namespace TeacherLeague.PageModels
 {
     public class SignInPageModel : FreshBasePageModel
     {
+
+        // IOC Members
+        IUserAccountsService _userAccountsService;
+
         public ICommand LoginCommand { get; private set; }
         public ICommand SignUpCommand { get; private set; }
-        public SignInPageModel()
+        public SignInPageModel(IUserAccountsService accountService)
         {
+            _userAccountsService = accountService;
+
             LoginCommand = new Command(async () => await Login());
             SignUpCommand = new Command(async () => await SignUp());
         }
@@ -41,6 +48,8 @@ namespace TeacherLeague.PageModels
 
         async Task Login()
         {
+          var name = await _userAccountsService.GetUserAsync("Joe");
+
             if (validateCredentials())
             {
                 Application.Current.Properties["Email"] = Email;

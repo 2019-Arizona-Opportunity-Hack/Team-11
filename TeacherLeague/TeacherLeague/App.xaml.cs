@@ -17,10 +17,13 @@ namespace TeacherLeague
 
             FreshIOC.Container.Register<IUserRepository, UserRepository>();
             FreshIOC.Container.Register<IUserService, UserService>();
+            FreshIOC.Container.Register<IUserAccountsService, UserAccountsService>();
 
             
             var mainPage = FreshPageModelResolver.ResolvePageModel<SignInPageModel>();
             MainPage = new FreshNavigationContainer(mainPage);
+
+
         }
 
         protected override void OnStart()
