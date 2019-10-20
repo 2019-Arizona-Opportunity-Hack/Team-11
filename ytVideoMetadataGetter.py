@@ -3,8 +3,8 @@ import re
 import urllib.request
 
 class ytMetadataGetter:
-	def __init__(self, video_url):
-		self.api_key = "AIzaSyCWeuSWBca0_O1gA3eu94y30zxQ4tnLt2M"
+	def __init__(self, video_url, api_key):
+		self.api_key = api_key
 		self.snippets = ""
 		self.statistics = ""
 		self.video_url = video_url
