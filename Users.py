@@ -10,7 +10,11 @@ instance = Flask(__name__)
 @instance.route("/users/<string:name>")
 def users(name):
     #searching for information related to a given user, converting to json and returning the result
-    information = table.search('Name', name)
+    for page in table.get_iter():
+        for item in page:
+            newitem = item['fields']['Name']
+            if newitem == name:
+                information = item['fields']
     return (json.dumps(information))
 
 #GET function to retrieve school from the database given the name of a user
