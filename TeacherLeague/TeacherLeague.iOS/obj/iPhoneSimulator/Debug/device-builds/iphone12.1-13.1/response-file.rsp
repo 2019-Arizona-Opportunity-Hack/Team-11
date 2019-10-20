@@ -165,6 +165,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
+-r=/Users/Joe/.nuget/packages/airtable/1.0.2/lib/netstandard2.0/AirtableApiClient.dll
 -r=/Users/Joe/.nuget/packages/freshmvvm/3.0.0/lib/netstandard2.0/FreshIOC.dll
 -r=/Users/Joe/.nuget/packages/freshmvvm/3.0.0/lib/netstandard2.0/FreshMvvm.dll
 -r=/Users/Joe/.nuget/packages/newtonsoft.json/12.0.2/lib/netstandard2.0/Newtonsoft.Json.dll

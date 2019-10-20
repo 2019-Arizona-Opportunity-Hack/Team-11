@@ -17,7 +17,7 @@
             <Label Text="{Binding Name}" HorizontalTextAlignment="Center"
                    FontAttributes="Bold"
                    FontSize="18"/>
-            <Label Text="{Binding Grade}" HorizontalTextAlignment="Center"/>
+            <Label Text="{Binding Grade, Mode=TwoWay}" HorizontalTextAlignment="Center"/>
             <Label Text="{Binding Subject}" HorizontalTextAlignment="Center"/>
             <Label Text="{Binding School}" HorizontalTextAlignment="Center"/>
             <Button Text="Edit Info"

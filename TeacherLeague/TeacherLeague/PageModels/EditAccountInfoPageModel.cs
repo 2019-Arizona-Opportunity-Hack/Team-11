@@ -18,12 +18,18 @@ namespace TeacherLeague.PageModels
         {
 
             SaveChangesCommand = new Command(async () => await SaveChanges());
+            _user = new User();
         }
 
         public override void Init(object initData)
         {
             base.Init(initData);
             _user = (User)initData;
+        }
+
+        async Task FetchUser()
+        {
+            _user = await _userService.GetUserByEmailAsync(Application.Current.Properties["Email"].ToString());
         }
 
         async Task SaveChanges()

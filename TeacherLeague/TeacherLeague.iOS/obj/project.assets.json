@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Airtable/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        }
+      },
       "FreshMvvm/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -361,6 +373,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Airtable": "1.0.2",
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.2",
           "Xamarin.Auth": "1.7.0",
@@ -377,6 +390,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Airtable/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        }
+      },
       "FreshMvvm/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -736,6 +761,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Airtable": "1.0.2",
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.2",
           "Xamarin.Auth": "1.7.0",
@@ -752,6 +778,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Airtable/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        }
+      },
       "FreshMvvm/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -1111,6 +1149,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Airtable": "1.0.2",
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.2",
           "Xamarin.Auth": "1.7.0",
@@ -1127,6 +1166,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Airtable/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        }
+      },
       "FreshMvvm/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -1486,6 +1537,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Airtable": "1.0.2",
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.2",
           "Xamarin.Auth": "1.7.0",
@@ -1503,6 +1555,18 @@
     }
   },
   "libraries": {
+    "Airtable/1.0.2": {
+      "sha512": "Yi62BQtBCODPNTtoDa/wlW4i8A2SmYB1V1A2iYw/MsAQXZnV3ePZ59hG4VZyodEiGQ+5mc7zYvd+QkSPkC1eDQ==",
+      "type": "package",
+      "path": "airtable/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "airtable.1.0.2.nupkg.sha512",
+        "airtable.nuspec",
+        "lib/netstandard2.0/AirtableApiClient.dll"
+      ]
+    },
     "FreshMvvm/3.0.0": {
       "sha512": "/XDZFT3hQP7Vbz44BJYkeWgPIDUenA2KHxROV95syRcARH/5r//Upx+Z6MVXcAioW9KvTOivrBvU+Q47Wy7Arg==",
       "type": "package",

@@ -16,9 +16,15 @@ namespace TeacherLeague.PageModels
 
         public AccountDetailsPageModel(IUserService userService) : base(userService)
         {
-            _user = new User();
-            
+
+            Task.Run(FetchUserData);
             EditAccountInfoCommand = new Command(async () => await EditAccountInfo());
+        }
+
+        protected override void ViewIsAppearing(object sender, EventArgs e)
+        {
+            
+            base.ViewIsAppearing(sender, e);
         }
 
         // Pass user throughout the app
@@ -26,13 +32,11 @@ namespace TeacherLeague.PageModels
         { 
             base.Init(initData);
 
-            Task.Run(async () => await FetchUserData());
         }
 
         async Task FetchUserData()
         {
             var email = Application.Current.Properties["Email"].ToString();
-            await _userService.InsertUserAsync(_user);
             _user = await _userService.GetUserByEmailAsync(email.ToLower());
             // TODO: if user is null, hit API
         }

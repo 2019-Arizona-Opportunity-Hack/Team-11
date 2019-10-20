@@ -2,18 +2,47 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TeacherLeague.Pages.EditAccountInfoPage"
-             BackgroundColor="#8AAF91">
+             BackgroundColor="#8AAF91"
+             NavigationPage.HasNavigationBar="False">
     <AbsoluteLayout>
-        <StackLayout AbsoluteLayout.LayoutBounds=".5, .5, 1, 1">
-            <Entry Text="{Binding Name}"/>
-            <Entry Text="{Binding Email}"/>
-            <Entry Text="{Binding Bio}"/>
-            <Entry Text="{Binding Subject}"/>
-            <Entry Text="{Binding School}"/>
-            <Entry Text="{Binding Grade}"/>
+        <Label Text="Edit Your Info" FontAttributes="Bold"
+               FontSize="28"
+               TextColor="White"
+               AbsoluteLayout.LayoutBounds=".5, .15, 200, 50"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"/>
+        <StackLayout Orientation="Vertical"
+                        AbsoluteLayout.LayoutBounds=".05, .4, 100, 200"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    VerticalOptions="Center"
+                    Spacing="20">
+            <Label Text="Name:" FontSize="23"/>
+            <Label Text="Email:" FontSize="23"/>
+            <Label Text="Grade:" FontSize="23"/>
+            <Label Text="Subject:" FontSize="23"/>
+            <Label Text="School:" FontSize="23"/>
+            <Label Text="Bio:" FontSize="23"/>
+        </StackLayout>
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="Center"
+                     AbsoluteLayout.LayoutBounds=".7, .45, 250, 300"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     Spacing="12">
+            <Entry Text="{Binding Name, Mode=TwoWay}"  BackgroundColor="#386739" TextColor="White" />
+            <Entry Text="{Binding Email, Mode=TwoWay}"  BackgroundColor="#386739" TextColor="White" />
+            <Entry Text="{Binding Grade, Mode=TwoWay}"  BackgroundColor="#386739" TextColor="White" />
+            <Entry Text="{Binding Subject, Mode=TwoWay}"  BackgroundColor="#386739" TextColor="White"/>
+            <Entry Text="{Binding School, Mode=TwoWay}"  BackgroundColor="#386739" TextColor="White" />
+            <Entry Text="{Binding Bio, Mode=TwoWay}"  BackgroundColor="#386739" TextColor="White"/>
         </StackLayout>
         <Button Text="Save Info"
-                AbsoluteLayout.LayoutBounds=".5, .8, 200, 200"
-                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                FontSize="22"
+                TextColor="White"
+                FontAttributes="Bold"
+                BackgroundColor="#386739"
+                AbsoluteLayout.LayoutBounds=".5, .8, 150, 50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Command="{Binding SaveChangesCommand}"/>
     </AbsoluteLayout>
 </ContentPage>

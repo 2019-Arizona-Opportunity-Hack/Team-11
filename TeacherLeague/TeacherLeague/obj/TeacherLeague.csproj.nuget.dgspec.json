@@ -39,6 +39,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Airtable": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "FreshMvvm": {
               "target": "Package",
               "version": "[3.0.0, )"

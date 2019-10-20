@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using FreshMvvm;
+using TeacherLeague.Models;
 using TeacherLeague.Services;
 using Xamarin.Forms;
 
@@ -13,12 +14,14 @@ namespace TeacherLeague.PageModels
 
         // IOC Members
         IUserAccountsService _userAccountsService;
+        IUserService _userService;
 
         public ICommand LoginCommand { get; private set; }
         public ICommand SignUpCommand { get; private set; }
-        public SignInPageModel(IUserAccountsService accountService)
+        public SignInPageModel(IUserAccountsService accountService, IUserService service)
         {
             _userAccountsService = accountService;
+            _userService = service;
 
             LoginCommand = new Command(async () => await Login());
             SignUpCommand = new Command(async () => await SignUp());
@@ -48,9 +51,23 @@ namespace TeacherLeague.PageModels
 
         async Task Login()
         {
-          var name = await _userAccountsService.GetUserAsync("Joe");
+            // If not in local DB we go to cloud
+            User user = await _userService.GetUserByEmailAsync(Email.ToLower());
 
-            if (validateCredentials())
+            if (user == null)
+            {
+                try
+                {
+                    // Check cloud for user in case local did not get updated
+                    user = await _userAccountsService.GetUserAsync(Email.ToLower());
+                }
+                catch (Exception ex)
+                {
+                    await CoreMethods.DisplayAlert("Incorrect Login", "Your Username or Password was incorrect.", "Okay");
+                }
+            }
+
+            if (user != null)
             {
                 Application.Current.Properties["Email"] = Email;
                 var tabbedNav = new FreshTabbedNavigationContainer("secondNav");
@@ -69,11 +86,6 @@ namespace TeacherLeague.PageModels
         async Task SignUp()
         {
             await CoreMethods.PushPageModel<SignUpPageModel>();
-        }
-
-        bool validateCredentials()
-        {
-            return Email != null;
         }
 
     }

@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Airtable/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AirtableApiClient.dll": {}
+        }
+      },
       "FreshMvvm/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -183,6 +195,18 @@
     }
   },
   "libraries": {
+    "Airtable/1.0.2": {
+      "sha512": "Yi62BQtBCODPNTtoDa/wlW4i8A2SmYB1V1A2iYw/MsAQXZnV3ePZ59hG4VZyodEiGQ+5mc7zYvd+QkSPkC1eDQ==",
+      "type": "package",
+      "path": "airtable/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "airtable.1.0.2.nupkg.sha512",
+        "airtable.nuspec",
+        "lib/netstandard2.0/AirtableApiClient.dll"
+      ]
+    },
     "FreshMvvm/3.0.0": {
       "sha512": "/XDZFT3hQP7Vbz44BJYkeWgPIDUenA2KHxROV95syRcARH/5r//Upx+Z6MVXcAioW9KvTOivrBvU+Q47Wy7Arg==",
       "type": "package",
@@ -1021,6 +1045,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Airtable >= 1.0.2",
       "FreshMvvm >= 3.0.0",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.2",
@@ -1069,6 +1094,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Airtable": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "FreshMvvm": {
             "target": "Package",
             "version": "[3.0.0, )"

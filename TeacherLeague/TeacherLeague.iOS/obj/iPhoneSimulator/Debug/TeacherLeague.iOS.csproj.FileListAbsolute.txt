@@ -75,3 +75,4 @@
 /Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/TeacherLeague.iOS.csproj.CopyComplete
 /Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/TeacherLeague.iOS.exe
 /Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/TeacherLeague.iOS.pdb
+/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/bin/iPhoneSimulator/Debug/AirtableApiClient.dll

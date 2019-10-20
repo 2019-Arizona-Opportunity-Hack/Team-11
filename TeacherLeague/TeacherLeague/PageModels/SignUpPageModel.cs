@@ -14,10 +14,12 @@ namespace TeacherLeague.PageModels
         public ICommand FinishSignUpCommand { get; private set; }
 
         IUserService _userService;
+        IUserAccountsService _accountService;
 
-        public SignUpPageModel(IUserService userService)
+        public SignUpPageModel(IUserService userService, IUserAccountsService userAccountsService)
         {
             _userService = userService;
+            _accountService = userAccountsService;
             
             FinishSignUpCommand = new Command(async () => await FinishSignUp());
         }
@@ -30,6 +32,17 @@ namespace TeacherLeague.PageModels
             {
                 _name = value;
                 RaisePropertyChanged("Name");
+            }
+        }
+
+        private string _email;
+        public string Email
+        {
+            get => _email;
+            set
+            {
+                _email = value;
+                RaisePropertyChanged("Email");
             }
         }
 
@@ -76,13 +89,13 @@ namespace TeacherLeague.PageModels
                 RaisePropertyChanged("Bio");
             }
         }
-
+        //TODO: FIXXXXX Name is email and vice versa
         async Task FinishSignUp()
         {
             var newUser = new User { Bio = _bio,
-                Email = Application.Current.Properties["Email"].ToString(),
-                Grade = _grade, Name = _name, School = _school, Subject = _subjects};
+                Email = _email.ToLower(), Grade = _grade, Name = _name, School = _school, Subject = _subjects};
             await _userService.InsertUserAsync(newUser);
+            await _accountService.InsertUserAsync(newUser);
 
             // Create new tabbed nav page
             var tabbedNav = new FreshTabbedNavigationContainer("secondNav");

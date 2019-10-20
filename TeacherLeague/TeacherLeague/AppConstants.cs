@@ -13,5 +13,7 @@ namespace TeacherLeague
 
         // API URL
         public const string UserAccountsApi = "https://teacherleague-api-server.herokuapp.com";
+        public const string BaseId = "appidhFGz9XaYqq9Z";
+        public const string AppKey = "keyBw9IRhWe1LP6oS";
     }
 }
