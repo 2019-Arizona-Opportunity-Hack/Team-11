@@ -1,26 +1,48 @@
-﻿<Properties StartupConfiguration="{1F074917-7FDE-4018-9D9E-AE4B18EA8CE7}|Default">
-  <MonoDevelop.Ide.ItemProperties.TeacherLeague FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.TeacherLeague.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TeacherLeague/MainPage.xaml">
+﻿<Properties StartupConfiguration="{FA381AB3-3F91-4088-8B8E-F124C32FC54D}|Default">
+  <MonoDevelop.Ide.ItemProperties.TeacherLeague.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9745C28D-59AE-4AB5-987E-EA7D318F6240" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TeacherLeague.iOS/Info.plist">
     <Files>
-      <File FileName="TeacherLeague/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="TeacherLeague/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="TeacherLeague/PageModels/SignInPageModel.cs" Line="17" Column="65" />
+      <File FileName="TeacherLeague/Pages/SignInPage.xaml" Line="26" Column="60" />
+      <File FileName="TeacherLeague/Pages/SignInPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TeacherLeague/App.xaml.cs" Line="21" Column="13" />
+      <File FileName="TeacherLeague/Pages/HomePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TeacherLeague/PageModels/AccountDetailsPageModel.cs" Line="47" Column="1" />
+      <File FileName="TeacherLeague/Pages/SignUpPage.xaml" Line="22" Column="58" />
+      <File FileName="TeacherLeague/PageModels/SignUpPageModel.cs" Line="86" Column="1" />
+      <File FileName="TeacherLeague/Pages/SignUpPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TeacherLeague.iOS/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TeacherLeague" expanded="True">
-            <Node name="TeacherLeague" expanded="True" />
+            <Node name="TeacherLeague" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="PageModels" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="SignUpPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="TeacherLeague.iOS" expanded="True">
+              <Node name="SQLiteImplementations" expanded="True" />
+              <Node name="Info.plist" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TeacherLeague.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../TeacherLeague/PageModels/AccountDetailsPageModel.cs" line="34" offsetX="-1" offsetY="-1" expression="_user" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.TeacherLeague.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/AccountDetailsPageModel.cs" relfile="TeacherLeague/PageModels/AccountDetailsPageModel.cs" line="36" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

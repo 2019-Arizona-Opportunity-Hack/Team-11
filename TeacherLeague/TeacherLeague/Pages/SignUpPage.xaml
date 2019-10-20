@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TeacherLeague.Pages.SignUpPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#8AAF91">
+    <AbsoluteLayout>
+        <Image Source="MDTP_Logo.png" AbsoluteLayout.LayoutBounds=".5, .2, 400, 100"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               HorizontalOptions="Center"/>
+        <StackLayout AbsoluteLayout.LayoutBounds=".5, .4, 300, 200"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     VerticalOptions="Center"
+                     Spacing="20">
+            <Entry Placeholder="Name.." Text="{Binding Email}" BackgroundColor="#386739" PlaceholderColor="White"/>
+            <Entry Placeholder="Grade You Teach.." Text="{Binding Password}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
+            <Entry Placeholder="Subjects You Teach.." Text="{Binding Subjects}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
+            <Entry Placeholder="School You Teach At.." Text="{Binding School}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"/>
+            <Editor Placeholder="Tell Us about You!" Text="{Binding Bio}" BackgroundColor="#386739" PlaceholderColor="White" TextColor="White"
+                    HeightRequest="80"/>
+        </StackLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds=".5, .73, 200, 60"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     Spacing="15">
+            <Button Text="Finish Sign Up" Command="{Binding FinishSignUpCommand}"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="#386739"/>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>

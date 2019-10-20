@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TeacherLeague.Pages.AboutPage"
+             Style="{StaticResource tabbedPage}"
+             IconImageSource="About_Icon.png">
+    <AbsoluteLayout>
+        <Image Source="MDTP_Logo.png"
+               x:Name="LogoImage"
+            AbsoluteLayout.LayoutBounds=".5, .2, 300, 150"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Label Text="{Binding AboutText}"
+               HorizontalTextAlignment="Center"
+               TextColor="White"
+               FontSize="16"
+               AbsoluteLayout.LayoutBounds=".5, .5, 400, 200"
+               VerticalOptions="Center"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <StackLayout AbsoluteLayout.LayoutBounds=".5, .9, 400, 100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Button Text="Donate To Million Dollar Teacher Project"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    FontSize="18"/>
+            <Button Text="Become A Sponsor"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    FontSize="18"/>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>

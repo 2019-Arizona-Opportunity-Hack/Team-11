@@ -65,6 +65,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLiteImplementations\IosSQLite.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -110,6 +111,54 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\New MDTP horizontal logo %28PNG%29-1.png" />
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\New MDTP horizontal logo %28PNG%29.png" />
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\New MDTP horizontal logo %28PNG%29-2.png" />
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\New MDTP horizontal logo %28PNG%29-3.png" />
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\New MDTP horizontal logo %28PNG%29-4.png" />
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\New MDTP horizontal logo %28PNG%29-5.png" />
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\New MDTP horizontal logo %28PNG%29-6.png" />
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\New MDTP horizontal logo %28PNG%29-7.png" />
+    <ImageAsset Include="Assets.xcassets\MDTP_Logo.imageset\New MDTP horizontal logo %28PNG%29-8.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-100-2.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-100-2-1.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-100-2-2.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-500-2.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-500-2-1.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-500-2-2.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-500-2-3.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-2.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-2-1.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-6.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-3.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-1.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-10.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-4.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-5.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-7.png" />
+    <ImageAsset Include="Assets.xcassets\About_Icon.imageset\icons8-info-50-8.png" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Competition_Icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\icons8-home-50.png" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\icons8-home-50-1.png" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\icons8-home-50-2.png" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\icons8-home-50-3.png" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\icons8-home-50-4.png" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\icons8-home-50-5.png" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\icons8-home-50-6.png" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\icons8-home-50-7.png" />
+    <ImageAsset Include="Assets.xcassets\Home_Icon.imageset\icons8-home-50-8.png" />
+    <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50.png" />
+    <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50-1.png" />
+    <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50-2.png" />
+    <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50-3.png" />
+    <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50-4.png" />
+    <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50-5.png" />
+    <ImageAsset Include="Assets.xcassets\Account_Icon.imageset\icons8-contacts-50-6.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -122,6 +171,9 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.6.292</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -129,5 +181,13 @@
       <Project>{546DC756-18D0-4311-B754-A45715633647}</Project>
       <Name>TeacherLeague</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SQLiteImplementations\" />
+    <Folder Include="Assets.xcassets\MDTP_Logo.imageset\" />
+    <Folder Include="Assets.xcassets\About_Icon.imageset\" />
+    <Folder Include="Assets.xcassets\Home_Icon.imageset\" />
+    <Folder Include="Assets.xcassets\Account_Icon.imageset\" />
+    <Folder Include="Assets.xcassets\Competition_Icon.imageset\" />
   </ItemGroup>
 </Project>

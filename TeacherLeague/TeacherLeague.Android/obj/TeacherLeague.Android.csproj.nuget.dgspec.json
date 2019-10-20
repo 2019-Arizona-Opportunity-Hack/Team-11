@@ -47,6 +47,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.2.0.709249, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           }
         }
@@ -87,6 +91,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "FreshMvvm": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -100,6 +108,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.2.0.709249, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [

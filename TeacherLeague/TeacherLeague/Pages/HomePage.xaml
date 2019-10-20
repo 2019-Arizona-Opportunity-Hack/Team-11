@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TeacherLeague.Pages.HomePage"
+             Style="{StaticResource Key=tabbedPage}">
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 BackgroundColor="#8AAF91"
+                 Padding="0, 40, 0, 0">
+        <StackLayout Spacing="0">
+            <ListView SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="https://via.placeholder.com/150/150"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Name of the video"/>
+                                    <Label Text="Description"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ListView SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="https://via.placeholder.com/150/150"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Name of the video"/>
+                                    <Label Text="Description"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Save User" Command="{Binding SaveUserCommand}"/>
+            <Button Text="Get User" Command="{Binding GetUserCommand}"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

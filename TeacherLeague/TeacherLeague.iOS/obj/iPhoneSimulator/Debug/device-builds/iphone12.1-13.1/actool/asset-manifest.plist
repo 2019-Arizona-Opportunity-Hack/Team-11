@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon20x20@2x.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon20x20@3x.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon29x29@2x.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon29x29@3x.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon40x40@2x.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon40x40@3x.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon60x60@2x.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon60x60@3x.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon20x20~ipad.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon20x20@2x~ipad.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon29x29~ipad.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon29x29@2x~ipad.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon40x40~ipad.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon40x40@2x~ipad.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon76x76~ipad.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon76x76@2x~ipad.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/AppIcon83.5x83.5@2x~ipad.png</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/bundle/Assets.car</string>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./MDTP_Logo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "MDTP_Logo" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-100-2-1.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-100-2-2.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-100-2.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-50-2-1.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-50-2.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-500-2-1.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-500-2-2.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-500-2-3.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-500-2.png]</string>
+				<string>./About_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "About_Icon" has 17 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Account_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "Account_Icon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Home_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "Home_Icon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Account_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Account_Icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "Account_Icon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Home_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Home_Icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "Home_Icon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-100-2-1.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-100-2-2.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-100-2.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-50-2-1.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-50-2.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-500-2-1.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-500-2-2.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-500-2-3.png]</string>
+				<string>./About_Icon.imageset/(null)[2d][icons8-info-500-2.png]</string>
+				<string>./About_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./About_Icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "About_Icon" has 17 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./MDTP_Logo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./MDTP_Logo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "MDTP_Logo" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,4 +1,9 @@
 ﻿using System;
+using FreshMvvm;
+using TeacherLeague.PageModels;
+using TeacherLeague.Pages;
+using TeacherLeague.Repositories;
+using TeacherLeague.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +15,12 @@ namespace TeacherLeague
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            FreshIOC.Container.Register<IUserRepository, UserRepository>();
+            FreshIOC.Container.Register<IUserService, UserService>();
+
+            
+            var mainPage = FreshPageModelResolver.ResolvePageModel<SignInPageModel>();
+            MainPage = new FreshNavigationContainer(mainPage);
         }
 
         protected override void OnStart()
