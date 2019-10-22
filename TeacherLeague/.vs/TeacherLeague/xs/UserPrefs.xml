@@ -1,22 +1,22 @@
 ﻿<Properties StartupConfiguration="{FA381AB3-3F91-4088-8B8E-F124C32FC54D}|Default">
   <MonoDevelop.Ide.ItemProperties.TeacherLeague.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9745C28D-59AE-4AB5-987E-EA7D318F6240" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TeacherLeague/Repositories/UserRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TeacherLeague/PageModels/BaseAccountDetailPageModel.cs">
     <Files>
-      <File FileName="TeacherLeague/PageModels/AccountDetailsPageModel.cs" Line="21" Column="1" />
-      <File FileName="TeacherLeague/Pages/SignUpPage.xaml" Line="15" Column="143" />
-      <File FileName="TeacherLeague/Pages/AccountDetailsPage.xaml" Line="20" Column="40" />
+      <File FileName="TeacherLeague/PageModels/AccountDetailsPageModel.cs" Line="24" Column="36" />
+      <File FileName="TeacherLeague/Pages/SignUpPage.xaml" />
+      <File FileName="TeacherLeague/Pages/AccountDetailsPage.xaml" />
       <File FileName="TeacherLeague/PageModels/HomePageModel.cs" />
       <File FileName="TeacherLeague/Models/Video.cs" />
       <File FileName="TeacherLeague/Pages/HomePage.xaml" />
       <File FileName="TeacherLeague/Models/LessonPlan.cs" />
-      <File FileName="TeacherLeague/PageModels/SignUpPageModel.cs" Line="103" Column="1" />
+      <File FileName="TeacherLeague/PageModels/SignUpPageModel.cs" />
       <File FileName="TeacherLeague/Pages/SignInPage.xaml" />
-      <File FileName="TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" Line="27" Column="48" />
+      <File FileName="TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" Line="33" Column="1" />
       <File FileName="TeacherLeague/PageModels/EditAccountInfoPageModel.cs" />
-      <File FileName="TeacherLeague.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="TeacherLeague/Services/IUserService.cs" Line="12" Column="20" />
-      <File FileName="TeacherLeague/Services/UserService.cs" Line="1" Column="1" />
-      <File FileName="TeacherLeague/Repositories/UserRepository.cs" Line="1" Column="1" />
+      <File FileName="TeacherLeague.iOS/Main.cs" />
+      <File FileName="TeacherLeague/Services/IUserService.cs" />
+      <File FileName="TeacherLeague/Services/UserService.cs" />
+      <File FileName="TeacherLeague/Repositories/UserRepository.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,11 +24,11 @@
           <Node name="TeacherLeague" expanded="True">
             <Node name="TeacherLeague" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="PageModels" expanded="True" />
-              <Node name="Pages" expanded="True" />
-              <Node name="Repositories" expanded="True">
-                <Node name="UserRepository.cs" selected="True" />
+              <Node name="PageModels" expanded="True">
+                <Node name="BaseAccountDetailPageModel.cs" selected="True" />
               </Node>
+              <Node name="Pages" expanded="True" />
+              <Node name="Repositories" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
@@ -47,11 +47,9 @@
     <BreakpointStore>
       <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/EditAccountInfoPageModel.cs" relfile="TeacherLeague/PageModels/EditAccountInfoPageModel.cs" line="33" column="1" />
       <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/SignUpPageModel.cs" relfile="TeacherLeague/PageModels/SignUpPageModel.cs" line="103" column="1" />
-      <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/AccountDetailsPageModel.cs" relfile="TeacherLeague/PageModels/AccountDetailsPageModel.cs" line="36" column="1" />
-      <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" relfile="TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" line="32" column="1" />
+      <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" relfile="TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" line="33" column="1" />
       <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" relfile="TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" line="20" column="1" />
-      <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" relfile="TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" line="27" column="1" />
-      <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/AccountDetailsPageModel.cs" relfile="TeacherLeague/PageModels/AccountDetailsPageModel.cs" line="33" column="1" />
+      <Breakpoint file="/Users/Joe/Documents/OpportunityHack/Team-11/TeacherLeague/TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" relfile="TeacherLeague/PageModels/BaseAccountDetailPageModel.cs" line="28" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
